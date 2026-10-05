@@ -378,3 +378,9 @@ footer small {
         font-size: 36px;
     }
 }
+.hero-photo img {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
