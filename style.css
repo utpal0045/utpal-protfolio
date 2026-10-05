@@ -384,20 +384,21 @@ footer small {
     object-fit: cover;
     border-radius: 20px;
 }
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-}
-.hero {
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column !important;
+        gap: 30px;
+        padding: 60px 20px;
+    }
 
-.hero-photo {
-    flex-shrink: 0;
+    .hero-photo img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .hero-text {
+        width: 100%;
+        text-align: center;
+    }
 }
