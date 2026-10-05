@@ -390,3 +390,14 @@ footer small {
     justify-content: center;
     gap: 60px;
 }
+.hero {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero-photo {
+    flex-shrink: 0;
+}
